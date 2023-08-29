@@ -8,3 +8,33 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+html {
+    font-size: 10px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 99vw;
+
+}
+
+.header-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.header-div h1 {
+    color: white;
+    font-size: 15em;
+}
+
+.header {
+    background-image: url("../images/background-singup.png");
+}
+
+.header-title {
+    align-self: flex-start;
+    width: 50%;
+}
