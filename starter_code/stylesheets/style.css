@@ -12,29 +12,31 @@ html {
     font-size: 10px;
 }
 
+.header {
+    background-image: url("../images/background-singup.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.header-img {
+    background-size: cover;
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    flex-wrap: wrap;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
     width: 99vw;
 
-}
-
-.header-div {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-}
-.header-div h1 {
-    color: white;
-    font-size: 15em;
-}
-
-.header {
-    background-image: url("../images/background-singup.png");
-}
-
-.header-title {
-    align-self: flex-start;
-    width: 50%;
 }
