@@ -74,7 +74,7 @@ img {
     background-color: #540B51 ;
 }
 
-span {
+p span {
     color: #ECB12F;
 }
 
@@ -100,4 +100,17 @@ p {
     background-color: #4285F4;
     color: white;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: white;
+    
+}
+
+.header-buttons2 img {
+    width: 7%;
+    height: auto;
+    background-color: white;
+    display: flex;
 }
