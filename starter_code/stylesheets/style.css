@@ -11,7 +11,10 @@ footer links grey: #454245
 html {
     font-size: 10px;
 }
-
+body {
+    margin: 0;
+    padding: 0
+}
 .header {
     background-image: url("../images/background-singup.png");
     display: flex;
@@ -25,6 +28,10 @@ html {
     background-size: cover;
 }
 
+img {
+    max-width: 98vw;
+    
+}
 .header-title {
     display: flex;
     justify-content: center;
@@ -32,11 +39,56 @@ html {
     color: white;
     font-size: 2em;
     flex-wrap: wrap;
+    padding: 3px;
 }
 
 .navbar {
+    background-color : #540B51;
     display: flex;
-    flex-direction: row;
-    width: 99vw;
+    width: 100vw;
+    height: 7vh;
+    justify-content:  space-between;
+    align-items: center;
+    padding: 3px 3px;
 
+}
+.navbar > div >  img {
+    width: 20vw
+}
+.header-title > h1 {
+    text-align: center;
+}
+
+.header-email {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    
+}
+
+.navbar > div > ul {
+    display: none
+}
+.buttons > button {
+    border: none;
+    background-color: #540B51 ;
+}
+
+span {
+    color: #ECB12F;
+}
+
+p {
+    color: white;
+    font-size: 2rem;
+}
+
+.header-buttons {
+    height: 7vh;
+    
+}
+
+.header-buttons2 {
+    height: 7vh;
+    margin-top: 5%;
 }
