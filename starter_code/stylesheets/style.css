@@ -57,6 +57,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100vw;
+    height: 93vh;
 }
 
 .header-title {
@@ -84,31 +85,31 @@ header {
    color: #ECB12F;
 }
 
-
-
-img {
-    max-width: 98vw;
-
-}
-
 .header-email {
     display: flex;
     flex-direction: column;
-    width: 90vw;
-    
+    width: 90%;
 }
 
-.header-buttons {
+.header-img {
+    margin-top: 10%;
+}
+
+img {
+    max-width: 98vw;
+}
+
+
+.email-button {
     background-color: white;
     height: 7vh;
     border-radius: 12px;
     color: #540B51;
     font-size: 2em;
     border: none;
-    
 }
 
-.header-buttons2 {
+.google-button {
     height: 7vh;
     margin-top: 5%;
     border-radius: 12px;
@@ -120,12 +121,78 @@ img {
     justify-content: center;
     font-size: 2em;
     color: white;
-    
 }
 
-.header-buttons2 img {
+.google-button img {
     width: 7%;
     height: auto;
     background-color: white;
     display: flex;
+}
+
+.google-img {
+    width: 10%;
+    height: 80%;
+    display: flex;
+    justify-content: left;
+    padding-left: .5em;
+    padding-right: 2em;
+}
+
+.google-signup {
+    width: 66%;
+    display: flex;
+    justify-content: left;
+}
+
+.google-img img {
+    width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-title {
+        text-align: left;
+    }
+    header {
+        flex-direction: row;
+        justify-content: left;
+        align-items: flex-start;
+        font-size: 2.0em;
+        width: 55%;
+        padding-left: 3%;
+        max-height: 93vh;
+        background-color: #540B51;
+    }
+
+    .header-text {
+        text-align: left;
+        font-size: 0.8em;
+    }
+
+    .email-button {
+        font-size: 1em;
+    }
+
+    .google-button {
+        font-size: 1em;
+    }
+
+    .header-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-img img {
+        width: 50vw;
+
+    }
+
+    .slack-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #540B51;
+    }
 }
