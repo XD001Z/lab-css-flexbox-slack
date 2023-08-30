@@ -8,14 +8,49 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
-html {
-    font-size: 10px;
-}
+
 body {
     margin: 0;
-    padding: 0
+    padding: 0;
+    font-size: 10px;
 }
-.header {
+
+nav {
+    background-color : #540B51;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 7vh;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1em;
+}
+
+.nav-buttons button {
+    background-color: #540B51;
+    border: none;
+}
+
+.nav-list {
+    display: none;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-logo img {
+    padding-left: 1em;
+    width: 30%;
+}
+
+header {
     background-image: url("../images/background-singup.png");
     display: flex;
     flex-direction: column;
@@ -24,39 +59,36 @@ body {
     width: 100vw;
 }
 
-.header-img {
-    background-size: cover;
+.header-title {
+    display: flex;
+    color: white;
+    font-size: 2em;
+    padding: 3px;
+    text-align: center;
 }
 
-img {
-    max-width: 98vw;
-    
-}
-.header-title {
+.header-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-size: 2em;
-    flex-wrap: wrap;
-    padding: 3px;
-}
-
-.navbar {
-    background-color : #540B51;
-    display: flex;
-    width: 100vw;
-    height: 7vh;
-    justify-content:  space-between;
-    align-items: center;
-    padding: 3px 3px;
-
-}
-.navbar > div >  img {
-    width: 20vw
-}
-.header-title > h1 {
     text-align: center;
+    width: 90%;
+}
+
+.header-text p {
+    font-size: 1.75em;
+    color: white;
+}
+
+.header-text p > span {
+   color: #ECB12F;
+}
+
+
+
+img {
+    max-width: 98vw;
+
 }
 
 .header-email {
@@ -64,23 +96,6 @@ img {
     flex-direction: column;
     width: 90vw;
     
-}
-
-.navbar > div > ul {
-    display: none
-}
-.buttons > button {
-    border: none;
-    background-color: #540B51 ;
-}
-
-p span {
-    color: #ECB12F;
-}
-
-p {
-    color: white;
-    font-size: 2rem;
 }
 
 .header-buttons {
